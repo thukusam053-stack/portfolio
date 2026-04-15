@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Sam | Portfolio</title>
+
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -31,6 +32,17 @@
 
         p {
             color: #94a3b8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
         }
 
         section {
@@ -67,24 +79,10 @@
             color: #f8fafc;
         }
 
-        .card p {
-            font-size: 14px;
-        }
-
-        .links {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .links a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 15px;
-            background: #38bdf8;
-            color: #0f172a;
+        .card a {
+            color: #38bdf8;
             text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
+            font-size: 14px;
         }
 
         footer {
@@ -103,16 +101,21 @@
     <h1>Hi, I'm Sam 👋</h1>
     <p>Student | Aspiring Web Developer</p>
 
-    <a href="Sam_CV.pdf" download>
-    <button>Download CV</button>
-</a>
+    <!-- CV BUTTON -->
+    <a href="Sam_CV.pdf" download class="btn">Download CV</a>
 </header>
 
 <section>
     <h2>About Me</h2>
     <p>
-        I’m a student learning web development. I enjoy building clean, modern websites using HTML, CSS, and JavaScript.
+        I am a passionate student and aspiring web developer focused on building clean, responsive, and user-friendly websites. 
+        I am currently improving my skills in HTML, CSS, and JavaScript while working on real-world projects.
     </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript (Beginner), GitHub</p>
 </section>
 
 <section>
@@ -121,27 +124,27 @@
 
         <div class="card">
             <h3>Portfolio Website</h3>
-            <p>My personal portfolio built with HTML and CSS hosted on GitHub Pages.</p>
+            <p>My personal portfolio built using HTML and CSS and hosted on GitHub Pages.</p>
+            <a href="https://github.com/thukusam053-stack/portfolio" target="_blank">View Project</a>
         </div>
 
         <div class="card">
-            <h3>Calculator App</h3>
-            <p>A simple calculator project using JavaScript logic.</p>
-        </div>
-
-        <div class="card">
-            <h3>To-Do List</h3>
-            <p>A task manager app that helps track daily activities.</p>
+            <h3>Upcoming Project</h3>
+            <p>Currently working on JavaScript-based applications like a calculator and to-do app.</p>
         </div>
 
     </div>
 </section>
 
-<section class="links">
-    <h2>Connect With Me</h2>
-    <a href="https://github.com/">GitHub</a>
-    <a href="#">LinkedIn</a>
-    <a href="mailto:yourname@email.com">Email</a>
+<section>
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+    <p>
+        GitHub: 
+        <a href="https://github.com/thukusam053-stack" target="_blank">
+            github.com/thukusam053-stack
+        </a>
+    </p>
 </section>
 
 <footer>
